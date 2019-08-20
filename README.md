@@ -1,7 +1,7 @@
-#Codeigniter_developer_test
+# Codeigniter_developer_test
  
 
-##Codeigniter app with 3 pages: Home page, Add Content Page and Search Page
+## Codeigniter app with 3 pages: Home page, Add Content Page and Search Page
 
 Home Page contains general information about the app 
 
@@ -12,14 +12,14 @@ Add Content page contains a form which submits a name and description to a MySql
 Search Page contains a search bar where the user can search for movie name in the database.
 Upon clickin on the autocomplete suggestions, these are inserted into a table.
 
-###Important files
+### Important files
 /controllers/Welcome.php    (used only the default controller)
 /views/welcome_message.php (home page)
 /views/Add_content.php (Add Content Page)
 /views/Search.php (Search Page)
 /models/My_model.php
 
-####Notes
+#### Notes
 
 I didn't make the pages beatiful or responsive as I don't think that was part of the test.
 Only cared for the functionality. What css there is, is to help things be more usable.
@@ -32,6 +32,6 @@ I didn't use an external js file. Kept all js in the view files so it's easier f
 I used wamp64 as localhost server. my root is ""http://localhost/Codeigniter_developer_test/index.php/welcome". 
 You can also use "http://localhost/Codeigniter_developer_test/"
 
-#####Thanks
+##### Thanks
 So yeah, let me know what you think. Everything is working perfectly as I'm writing this.
 And let me know if something doesn't work on your end. Maybe I forgot something.
