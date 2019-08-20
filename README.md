@@ -20,6 +20,7 @@ http://localhost/Codeigniter_developer_test/index.php/welcome/search
 /views/Search.php (Search Page)<br/>
 /models/My_model.php<br>
 /config/config.php , database.php
+/content.sql (database dump file)
 
 #### Notes
 
