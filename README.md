@@ -17,12 +17,13 @@ Upon clickin on the autocomplete suggestions, these are inserted into a table.
 /views/welcome_message.php (home page)<br/>
 /views/Add_content.php (Add Content Page)<br/>
 /views/Search.php (Search Page)<br/>
-/models/My_model.php
+/models/My_model.php<br>
+/config/config.php , database.php
 
 #### Notes
 
 I didn't make the pages beatiful or responsive as I don't think that was part of the test.
-Only cared for the functionality. What css there is, is to help things be more usable.
+Only cared for the functionality. What css there is, is to help things be more usable + default css from Codeigniter.
 
 I didn't use any particular naming conventions or ways to set up the controllers/views/models
 as I don't know how you guys do things and I'd have to learn your way anyway.

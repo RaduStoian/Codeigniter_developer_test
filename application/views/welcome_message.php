@@ -27,10 +27,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<p><b>/views/Add_content.php (Add Content Page)</b></P>
 		<p><b>/views/Search.php (Search Page)</b></P>
 		<p><b>/models/My_model.php</b></P>
+		<p><b>/config/config.php , database.php</b></p>
 
 		<h3>Notes:</h3>
 		<ul>
-			<li>I didn't make the pages beatiful or responsive as I don't think that was part of the test. Only cared for the functionality. What css there is, is to help things be more usable.</li>
+			<li>I didn't make the pages beatiful or responsive as I don't think that was part of the test. Only cared for the functionality. What css there is, is to help things be more usable + default css from Codeigniter.</li>
 			<li>I didn't use any particular naming conventions or ways to set up the controllers/views/models as I don't know how you guys do things and I'd have to learn your way anyway.</li>
 			<li>I didn't use an external js file. Kept all js in the view files so it's easier for you to go through it.</li>
 			<li>I used wamp64 as localhost server. my root is "http://localhost/Codeigniter_developer_test/index.php/welcome". You can also use "http://localhost/Codeigniter_developer_test/"
