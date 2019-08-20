@@ -4,13 +4,14 @@
 ## Codeigniter app with 3 pages: Home page, Add Content Page and Search Page
 
 Home Page contains general information about the app 
-
-go to: "http://localhost/Codeigniter_developer_test/index.php/welcome" or "http://localhost/Codeigniter_developer_test/"
+"http://localhost/Codeigniter_developer_test/index.php/welcome" or "http://localhost/Codeigniter_developer_test/"
 
 Add Content page contains a form which submits a name and description to a MySql database.
+http://localhost/Codeigniter_developer_test/index.php/welcome/addContent
 
 Search Page contains a search bar where the user can search for movie name in the database.
 Upon clickin on the autocomplete suggestions, these are inserted into a table.
+http://localhost/Codeigniter_developer_test/index.php/welcome/search
 
 ### Important files
 /controllers/Welcome.php    (used only the default controller)<br/>
