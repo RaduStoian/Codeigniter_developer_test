@@ -24,6 +24,9 @@ http://localhost/Codeigniter_developer_test/index.php/welcome/search
 
 #### Notes
 
+Most people online advised just to make an sql dump file of the database and add that to the project folder so that's what I did. You might have to set up your localhost and import content.sql in your PhpMyAdmin.
+Further database setup file is /config/database.php
+
 I didn't make the pages beatiful or responsive as I don't think that was part of the test.
 Only cared for the functionality. What css there is, is to help things be more usable + default css from Codeigniter.
 
@@ -35,8 +38,7 @@ I didn't use an external js file. Kept all js in the view files so it's easier f
 I used wamp64 as localhost server. my root is ""http://localhost/Codeigniter_developer_test/index.php/welcome". 
 You can also use "http://localhost/Codeigniter_developer_test/"
 
-Most people online advised just to make an sql dump file of the database and add that to the project folder so that's what I did. You might have to set up your localhost and import content.sql in your PhpMyAdmin.
-Further database setup file is /config/database.php
+
 
 ##### Thanks
 So yeah, let me know what you think. Everything is working perfectly as I'm writing this.
