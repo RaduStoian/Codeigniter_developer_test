@@ -13,10 +13,10 @@ Search Page contains a search bar where the user can search for movie name in th
 Upon clickin on the autocomplete suggestions, these are inserted into a table.
 
 ### Important files
-/controllers/Welcome.php    (used only the default controller)
-/views/welcome_message.php (home page)
-/views/Add_content.php (Add Content Page)
-/views/Search.php (Search Page)
+/controllers/Welcome.php    (used only the default controller)<br/>
+/views/welcome_message.php (home page)<br/>
+/views/Add_content.php (Add Content Page)<br/>
+/views/Search.php (Search Page)<br/>
 /models/My_model.php
 
 #### Notes
