@@ -18,8 +18,8 @@ http://localhost/Codeigniter_developer_test/index.php/welcome/search
 /views/welcome_message.php (home page)<br/>
 /views/Add_content.php (Add Content Page)<br/>
 /views/Search.php (Search Page)<br/>
-/models/My_model.php<br>
-/config/config.php , database.php
+/models/My_model.php<br/>
+/config/config.php , database.php<br/>
 /content.sql (database dump file)
 
 #### Notes
