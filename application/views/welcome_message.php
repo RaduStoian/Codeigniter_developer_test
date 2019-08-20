@@ -22,12 +22,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	
 		<br><br>
 		<h3>Hello there. These are the most important files.</h3>
-		<p><b>/controllers/Welcome.php    (used only the default controller)</b></p>
-		<p><b>/views/welcome_message.php (home page)</b></P>
-		<p><b>/views/Add_content.php (Add Content Page)</b></P>
-		<p><b>/views/Search.php (Search Page)</b></P>
-		<p><b>/models/My_model.php</b></P>
-		<p><b>/config/config.php , database.php</b></p>
+		<p><b>/application/controllers/Welcome.php    (used only the default controller)</b></p>
+		<p><b>/application/views/welcome_message.php (home page)</b></P>
+		<p><b>/application/views/Add_content.php (Add Content Page)</b></P>
+		<p><b>/application/views/Search.php (Search Page)</b></P>
+		<p><b>/application/models/My_model.php</b></P>
+		<p><b>/application/config/config.php , database.php</b></p>
+		<p><b>/content.sql (database dump file)</b></p>
 
 		<h3>Notes:</h3>
 		<ul>
@@ -35,12 +36,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<li>I didn't use any particular naming conventions or ways to set up the controllers/views/models as I don't know how you guys do things and I'd have to learn your way anyway.</li>
 			<li>I didn't use an external js file. Kept all js in the view files so it's easier for you to go through it.</li>
 			<li>I used wamp64 as localhost server. my root is "http://localhost/Codeigniter_developer_test/index.php/welcome". You can also use "http://localhost/Codeigniter_developer_test/"
+			<li>Most people online advised just to make an sql dump file of the database and add that to the project folder so that's what I did. You might have to set up your localhost and import content.sql in your PhpMyAdmin. Further database setup file is /application/config/database.php</li>
 		</ul>
 
 		<br>
 
 		<h4>So yeah, let me know what you think. Everything is working perfectly as I'm writing this.</h4>
 		<h4>And let me know if something doesn't work on your end. Maybe I forgot something.</h4>
+		<h4>Or if there's some other way you want me to send the database over git.</h4>
 	</div>
 
 	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
