@@ -14,12 +14,12 @@ Upon clickin on the autocomplete suggestions, these are inserted into a table.
 http://localhost/Codeigniter_developer_test/index.php/welcome/search
 
 ### Important files
-/controllers/Welcome.php    (used only the default controller)<br/>
-/views/welcome_message.php (home page)<br/>
-/views/Add_content.php (Add Content Page)<br/>
-/views/Search.php (Search Page)<br/>
-/models/My_model.php<br/>
-/config/config.php , database.php<br/>
+/application/controllers/Welcome.php    (used only the default controller)<br/>
+/application/views/welcome_message.php (home page)<br/>
+/application/views/Add_content.php (Add Content Page)<br/>
+/application/views/Search.php (Search Page)<br/>
+/application/models/My_model.php<br/>
+/application/config/config.php , database.php<br/>
 /content.sql (database dump file)
 
 #### Notes
